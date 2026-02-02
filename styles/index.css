@@ -2,10 +2,52 @@ body {}
 #wrap {}
 #wrap header {}
 #wrap header h1 {}
+#wrap header h1 a {}
+#wrap header h1 a img {}
+/* 호랑가시나무언덕소개 ~ 고객센터까지 모든 gnb + lnb 공통 선택자 */
 #wrap header nav {}
 #wrap header nav #gnb {}
-#wrap header nav #gnb li {}
-#wrap header nav #gnb li .lnb_depth2 {}
-#wrap header nav #gnb li .lnb_depth2 li {}
-#wrap header nav #gnb li .lnb_depth2 li #lnb_depth3 {}
-#wrap header nav #gnb li .lnb_depth2 li #lnb_depth3 li {}
+#wrap header nav #gnb > li {}
+#wrap header nav #gnb > li > a {}/* line 20 */
+#wrap header nav #gnb > li > .lnb_depth2 {}
+#wrap header nav #gnb > li > .lnb_depth2 > li {}
+#wrap header nav #gnb > li > .lnb_depth2 > li > a {}
+#wrap header nav #gnb > li > .lnb_depth2 > li > .lnb_depth3 {}
+#wrap header nav #gnb > li > .lnb_depth2 > li > .lnb_depth3 li {}
+#wrap header nav #gnb > li > .lnb_depth2 > li > .lnb_depth3 li a {}
+/* ===================================================main */
+#wrap main {}
+/* ===================================================main 1. 히어로배너 */
+#wrap main #hero_bnr {}
+#wrap main #hero_bnr .ad_txt {}
+#wrap main #hero_bnr .ad_txt p {}
+#wrap main #hero_bnr .ad_txt h1 {}
+#wrap main #hero_bnr form {}
+#wrap main #hero_bnr form .room {}
+#wrap main #hero_bnr form .room h2 {}
+#wrap main #hero_bnr form .room p {}
+#wrap main #hero_bnr form .room p #room_type {}
+#wrap main #hero_bnr form .room p #room_type option {}
+#wrap main #hero_bnr form .check_in_out {}
+#wrap main #hero_bnr form .check_in_out .in {}
+#wrap main #hero_bnr form .check_in_out .in h2 {}
+#wrap main #hero_bnr form .check_in_out .in p {}
+#wrap main #hero_bnr form .check_in_out .in p #in_date {}
+#wrap main #hero_bnr form .check_in_out .day {}
+#wrap main #hero_bnr form .check_in_out .day img {}
+#wrap main #hero_bnr form .check_in_out .day em {}
+#wrap main #hero_bnr form .check_in_out .out {}
+#wrap main #hero_bnr form .check_in_out .out h2 {}
+#wrap main #hero_bnr form .check_in_out .out p {}
+#wrap main #hero_bnr form .check_in_out .out p #out_date {}
+#wrap main #hero_bnr form .person {}
+#wrap main #hero_bnr form .person h2 {}
+#wrap main #hero_bnr form .person .number {}
+#wrap main #hero_bnr form .person .number li {}
+#wrap main #hero_bnr form .person .number li label {}
+#wrap main #hero_bnr form .person .number li #adult {}
+#wrap main #hero_bnr form .person .number li #kid {}
+#wrap main #hero_bnr form > p {}
+#wrap main #hero_bnr form > p #search_btn {}
+/* ===================================================footer */
+#wrap footer {}
