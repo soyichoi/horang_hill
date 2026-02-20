@@ -8,3 +8,4 @@
 * 시멘틱태그 `<nav>` 사용하기
 ### 26/02/20 update
 * common.css 추가
+* header ~ hero banner css 작업
