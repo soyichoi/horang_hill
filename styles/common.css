@@ -1,0 +1,57 @@
+/* 공통디자인 common.css */
+/* header, footer */
+/* ===================================================header */
+body {}
+#wrap {}
+#wrap header {
+    background-color: rgba(0,0,0,0.9);
+    height: 70px; padding: 0 80px;
+    min-width: 1220px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    /* 스크롤 이동 시 고정 */
+    position: fixed; left: 0; top: 0; z-index: 999; width: 100%;
+}
+#wrap header h1 {}
+#wrap header h1 a {}
+#wrap header h1 a img {}
+/* 호랑가시나무언덕소개 ~ 고객센터까지 모든 gnb + lnb 공통 선택자 */
+#wrap header nav {}
+#wrap header nav #gnb {
+    display: flex;/* li */
+    flex-flow: row nowrap; gap: 20px;
+}
+#wrap header nav #gnb a:hover {color: #43CE48 !important;}/* 공통 a */
+#wrap header nav #gnb > li {position: relative;}/* 첫번째 서브 기준 */
+#wrap header nav #gnb > li:hover .lnb_depth2 {display: block;}
+#wrap header nav #gnb > li > a {
+    color: #fff;
+    line-height: 70px; display: block;/* 클릭하는 범위를 크게 잡기 위함 */
+}/* line 20 */
+#wrap header nav #gnb > li > .lnb_depth2 {/* 첫번째 서브 */
+    background-color: #333;
+    position: absolute;
+    width: 160px;
+    left: 50%; transform: translateX(-50%);/* absolute 부모 x축 정중앙 */
+    display: none;
+}
+#wrap header nav #gnb > li > .lnb_depth2 > li {}
+#wrap header nav #gnb > li > .lnb_depth2 > li:hover .lnb_depth3 {display: block;}
+#wrap header nav #gnb > li > .lnb_depth2 > li > a {
+    color: #fff; text-align: center;
+    display: block; line-height: 46px;
+}
+#wrap header nav #gnb > li > .lnb_depth2 > li > .lnb_depth3 {
+    background-color: #555;
+    display: none;
+}
+#wrap header nav #gnb > li > .lnb_depth2 > li > .lnb_depth3 li {border-bottom: 1px solid #999;}
+#wrap header nav #gnb > li > .lnb_depth2 > li > .lnb_depth3 li a {
+    color: #fff; text-align: center;
+    display: block; line-height: 46px;
+}
+/* ===================================================footer */
+#wrap footer {}
+#wrap footer p {}
