@@ -9,3 +9,6 @@
 ### 26/02/20 update
 * common.css 추가
 * header ~ hero banner css 작업
+### 26/02/23 update
+* hero banner 예약폼 완성
+* main 소개 ~ 관광지 작업중
