@@ -12,3 +12,5 @@
 ### 26/02/23 update
 * hero banner 예약폼 완성
 * main 소개 ~ 관광지 작업중
+### 26/02/24 update
+* main 소개 ~ 관광지 완성
