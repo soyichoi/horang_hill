@@ -200,3 +200,30 @@
 /* 가운데
 text-align 부모한테 명령 -> 자식, 자손 인라인 적용
 */
+/* ================================================================4. 객실 및 예약안내 */
+#wrap main #room_info_bg {background-color: #f5f5f5;}
+#wrap main #room_info_bg .room_list {
+    display: flex; flex-flow: row nowrap; justify-content: space-between;
+    margin: 0 0 10px; 
+    background-color: #999;
+}
+#wrap main #room_info_bg .room_list li {
+    width: 1220px; background-color: aqua;
+}
+#wrap main #room_info_bg .room_list li a {}
+#wrap main #room_info_bg .room_list li a img {
+    margin-bottom: 10px;
+}
+#wrap main #room_info_bg .room_list li .room_name {
+    font-size: 1.13rem; font-weight: 600;
+    margin-bottom: 10px;
+}
+#wrap main #room_info_bg .room_list li p {
+    line-height: 1.7;
+}
+/* --------------------------------------------------------------실시간 예약하기 버튼 */
+#wrap main #room_info_bg .reservation_btn {
+    font-size: 0.94rem;
+    border-bottom: 1px solid #000;
+    margin: 0 auto; display: block; width: max-content;
+}
