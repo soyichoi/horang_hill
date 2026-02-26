@@ -53,8 +53,18 @@ body {}
     display: block; line-height: 46px;
 }
 /* ===================================================footer */
-#wrap footer {}
-#wrap footer p {}
+#wrap footer {
+    background-color: #000;
+    padding: 70px 0;
+}
+#wrap footer p {
+    font-size: 0.8rem; color: #fff;
+    line-height: 2;
+    width: 1220px; margin: 0 auto;
+}
+#wrap footer p a {
+    color: #fff;
+}
 /* ===================================================main w1220+p70 */
 #wrap main .container_layout,
 #wrap footer .container_layout {

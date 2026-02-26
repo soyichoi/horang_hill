@@ -203,13 +203,11 @@ text-align 부모한테 명령 -> 자식, 자손 인라인 적용
 /* ================================================================4. 객실 및 예약안내 */
 #wrap main #room_info_bg {background-color: #f5f5f5;}
 #wrap main #room_info_bg .room_list {
-    display: flex; flex-flow: row nowrap; justify-content: space-between;
-    margin: 0 0 10px; 
-    background-color: #999;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center;
+    margin: 0 auto 80px; width: 1220px; gap: 20px;
 }
-#wrap main #room_info_bg .room_list li {
-    width: 1220px; background-color: aqua;
-}
+#wrap main #room_info_bg .room_list li {}
 #wrap main #room_info_bg .room_list li a {}
 #wrap main #room_info_bg .room_list li a img {
     margin-bottom: 10px;
@@ -219,11 +217,45 @@ text-align 부모한테 명령 -> 자식, 자손 인라인 적용
     margin-bottom: 10px;
 }
 #wrap main #room_info_bg .room_list li p {
-    line-height: 1.7;
+    line-height: 1.7; color: #555; font-size: 0.88rem;
 }
 /* --------------------------------------------------------------실시간 예약하기 버튼 */
 #wrap main #room_info_bg .reservation_btn {
     font-size: 0.94rem;
     border-bottom: 1px solid #000;
     margin: 0 auto; display: block; width: max-content;
+}
+/* ================================================================5. 찾아오시는 길 */
+#wrap main #map {
+    width: 1220px; margin: 0 auto; padding: 70px 0;
+}
+#wrap main #map .map_title {
+    display: flex; top: 0; left: 0; width: 100%;
+    justify-content: space-between; align-items: center;
+    margin-bottom: 30px;
+}
+#wrap main #map .map_title h1 {
+    font-size: 1.5rem; font-weight: 600;
+}
+#wrap main #map .map_title p {}
+#wrap main #map .map_img {
+    margin-bottom: 30px;
+}
+#wrap main #map .map_img img {}
+#wrap main #map .transport {}
+#wrap main #map .transport .bus {}
+#wrap main #map .transport .bus h2 {}
+#wrap main #map .transport .bus p:nth-child(2),
+#wrap main #map .transport .bus p:nth-child(3) {
+    margin-bottom: 30px;
+}
+#wrap main #map .transport .subway {}
+#wrap main #map .transport .subway h2 {}
+#wrap main #map .transport .subway p {}
+#wrap main #map .transport h2 {
+    font-weight: 700; font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+#wrap main #map .transport p {
+    line-height: 1.8; color: #555;
 }
