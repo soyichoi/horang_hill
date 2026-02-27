@@ -63,7 +63,7 @@ body {}
     width: 1220px; margin: 0 auto;
 }
 #wrap footer p a {
-    color: #fff;
+    color: #fff; border-bottom: 1px solid #fff;
 }
 /* ===================================================main w1220+p70 */
 #wrap main .container_layout,
