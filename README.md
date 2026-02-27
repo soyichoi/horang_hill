@@ -14,3 +14,5 @@
 * main 소개 ~ 관광지 작업중
 ### 26/02/24 update
 * main 소개 ~ 관광지 완성
+### 26/02/27 update
+* main 객실 안내 ~ footer 완성
